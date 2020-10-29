@@ -1,0 +1,182 @@
+﻿{
+	"projects":[
+		{
+			"id": 1,
+			"name": "DiCatalog",
+			"imagelink": "https://image.slidesharecdn.com/ab729f2d-9e1f-4b47-b2b8-ee1802b57a9c-160824062746/95/dicentralb1-integrationeng201605-simp-15-638.jpg",
+			"website": "",
+			"period": "2012 - 2013",
+			"description": 
+			[
+				"DiCatalog is a catalog  application integrating with EDI service of DiCentral.",
+				"- Support Buyer and Retailer in catalog business",
+				"- Integrate with DiCentral Service in EDI import/export and manage Trading Partner"
+			],
+			"members": 3,
+			"position": "Developer",
+			"responsibility": 
+			[
+				"Develop features follow to BA’s requests",
+				"Modifying software to fix errors, adapt it to new hardware, improve its performance, or upgrade interfaces",
+				"Testing and deploying programs"
+			],
+			"technology": "ASP.Net WebForm, Devexpress, SQL Server, Jquery"
+		},
+		{
+			"id": 2,
+			"name": "Online Payment",
+			"imagelink": "https://cdn.vietnambiz.vn/thumb_w/600/2019/10/5/pg-back-image-1280x720-15702689136491579765091-crop-15702689853161367426964.jpg",
+			"website": "",
+			"period": "2014 - 2015",
+			"description": 
+			[
+				"Online Payment is a web application integrating with Payment Gateways to support:",
+				"- Support the payment features by credit card for products of DiCentral",
+				"- Integrate to some Payment Gateways: Authorize.net, PayAsia…",
+				"- Support the reports for Accountant Department"
+			],
+			"members": 3,
+			"position": "Developer",
+			"responsibility": 
+			[
+				"Producing detailed specifications and writing the program codes",
+				"Testing the product in controlled, real situations before going live",
+				"Preparation of training manuals for users",
+				"Maintaining the systems once they are up and running"
+			],
+			"technology": "ASP.Net WebForm, WCF Service, SQL Server, Jquery"
+		},
+		{
+			"id": 3,
+			"name": "DiCompliance",
+			"imagelink": "https://www.xpressmoney.com/blog/wp-content/uploads/2019/05/importance_of_compliance_article_post_thumb-1.jpg",
+			"website": "",
+			"period": "2015 - 2017",
+			"description": 
+			[
+				"DiCompliance provides a private-labeled EDI testing platform to help customer eﬀectively collaborate with their supplier community. This includes:",
+				"- EDI testing program details, including EDI document guidelines and associated compliance deadlines",
+				"- Reporting tools for complete visibility into vendor EDI compliance status",
+				"- On-demand customer support to resolve test data errors",
+				"- Pass or fail notiﬁcation alerts",
+				"- Documentation of all tests to provide foundation for future compliance requests"
+			],
+			"members": 3,
+			"position": "Senior .Net Developer",
+			"responsibility": 
+			[
+				"Develop, test and implement new software programs",
+				"Test, maintain and recommend software improvements to ensure strong functionality and optimization",
+				"Developing technical documentation to guide future software development projects"
+			],
+			"technology": "ASP Classic, WCF Service, SQL Server, Jquery"
+		},
+		{
+			"id": 4,
+			"name": "DiMetrics",
+			"imagelink": "https://noii.vn/uploads/tintuc/n0ngj_DiMetrics.png",
+			"website": "",
+			"period": "2017 - 2019",
+			"description": 
+			[
+				"DiMetrics is a solution which proactively monitors EDI transactions to minimize and/or avoid compliance penalties. Based on configuration parameters, alerts can be issued when a compliance rule is violated or about to be violated—allowing the business to correct the problem and to re-issue the proper transaction, thereby avoiding the compliance penalty "
+			],
+			"members": 5,
+			"position": "Senior .Net Developer, Team Leader",
+			"responsibility": 
+			[
+				"Troubleshooting, debugging, maintaining and improving existing software ",
+				"Analyze user requirements and convert requirements to design documents",
+				"Independently install, customize and integrate to other software",
+				"Provide comprehensive support to internal customers; achieve resolution to outstanding problems or issues",
+				"Facilitate root cause analysis of system issues",
+				"Work with experienced team members to conduct root cause analysis of issues, review new and existing code and/or perform unit testing"
+			],
+			"technology": "ASP.Net WebForm, Window Service, Devexpress, SQL Server, Jquery"
+		},
+		{
+			"id": 5,
+			"name": "DiCentral website ",
+			"imagelink": "https://www.dicentral.com/css/assets/imgs/dicentral-logo.png",
+			"website": "",
+			"period": "2018",
+			"description": 
+			[
+				"DiCentral is the most innovative EDI company on the planet, enabling customers to expand their supply chain",
+				"DiCentral has nearly two decades of experience in solving complex EDI and supply chain integration challenges. As markets continue to ﬂuctuate, leading organizations rely on DiCentral to innovate while they integrate with their trading partners"
+			],
+			"members": 1,
+			"position": "Senior .Net Developer",
+			"responsibility": 
+			[
+				"Independently install, customize, build the website introduce about company, products, support multi-languages…",
+				"Collaborate with UI/UX team to update GUI",
+				"Collaborate with Marketing team to upload the events/webinars",
+				"Maintaining the systems once they are up and running"
+			],
+			"technology": "Umbraco CMS, ASP.net MVC, SQL Server, Jquery"
+		},
+		{
+			"id": 6,
+			"name": "SmartTurn Portal website",
+			"imagelink": "https://ww1.prweb.com/prfiles/2009/09/29/2965424/0_smartturnlogo3color.jpg",
+			"website": "",
+			"period": "2019",
+			"description": 
+			[
+				"SmartTurn is a market-leading inventory and warehouse management software provider, serving small to medium businesses around the world. It is a cloud-based SaaS solution that helps companies manage inventory, logistics and provide real-time visibility. The purpose is to automate processes and provide integration across the supply chain"
+			],
+			"members": 2,
+			"position": "Senior .Net Developer",
+			"responsibility": 
+			[
+				"Independently install, customize, build the website introduce about SmartTurn",
+				"Integrate to Online Payment to allow customer register and charge by credit card",
+				"Collaborate with SEO team to enhance the website’s rank",
+				"Collaborate with Marketing team to load the events/webinars/forms from Hubspot tool"
+			],
+			"technology": "Umbraco CMS, ASP.net MVC, SQL Server, Jquery"
+		},
+		{
+			"id": 7,
+			"name": "Elegant Blinds Inc. website",
+			"imagelink": "http://elegantblindsinc.com/Themes/GrandNodeTheme/Content/images/logo.png",
+			"website": "",
+			"period": "2017-2018",
+			"description": 
+			[
+				"Elegant Blinds Inc. is a major Internet retailer of Window Coverings’ products. With over 20 years in window covering business, we provide consumers with full line quality window treatments including Wood Blinds, Faux Wood Blinds, Mini Blinds, Verticals, Pleated Shades, Roller Shades, Roman Shades and Shutters at the most cost effective price"
+			],
+			"members": 1,
+			"position": ".Net Developer",
+			"responsibility": 
+			[
+				"Consulting with customers on project status and proposals",
+				"Working with customers on technical issues including software system design and maintenance",
+				"Independently install, customize and integrate software packages"
+			],
+			"technology": "NopCommerce, ASP.net MVC, SQL Server, Jquery"
+		},
+		{
+			"id": 8,
+			"name": "Anna Drapery website",
+			"imagelink": "http://annasdrapery.com/Themes/NopShop/Content/css/images/red_logo.png",
+			"website": "",
+			"period": "2017-2018",
+			"description": 
+			[
+				"Anna's Drapery is a family owned wholesale manufacture of soft custom window treatments. In business since 1989, Anna's Drapery is one of the best drapery workrooms in Houston supply to customers a full line of alternative soft window covering products including Custom Pinch-Pleated Drapes, Swags & Cascade, Balloon Valances, Pleated Valances, Kingston, Box Pleated, Arch tops, Benton Valance, Scallop top, cornices, Sunburst, headboards, Pillows, awning, Table Runners, napkin and much more specials designs and treatments"
+			],
+			"members": 1,
+			"position": ".Net Developer",
+			"responsibility": 
+			[
+				"Consulting with customers on project status and proposals",
+				"Working with customers on technical issues including software system design and maintenance",
+				"Independently install, customize and integrate software packages"
+			],
+			"technology": "NopCommerce, ASP.net MVC, SQL Server, Jquery"
+		}
+		
+	]
+}

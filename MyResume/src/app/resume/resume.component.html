@@ -1,0 +1,95 @@
+<section class="resume-section">
+    <div class="row">
+        <div class="col-lg-6">
+            <h6 class="section-subtitle">RESUME</h6>
+            <h2 class="section-title">EDUCATION</h2>
+            <ul class="time-line">
+                <li *ngFor="let x of profile.education" class="time-line-item">
+                    <span class="badge badge-primary">{{x.period}}</span>
+                    <h6 class="time-line-item-title">{{x.school}}</h6>
+                    <p class="time-line-item-subtitle">{{x.major}}</p>
+                    <p class="time-line-item-content">{{x.description}}</p>
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-6">
+            <h6 class="section-subtitle">RESUME</h6>
+            <h2 class="section-title">Experience</h2>
+            <ul class="time-line">
+                <li class="time-line-item" *ngFor="let x of profile.workexperience">
+                    <span class="badge badge-primary">{{x.period}}</span>
+                    <h6 class="time-line-item-title">{{x.company}}</h6>
+                    <p class="time-line-item-subtitle">{{x.position}}</p>
+                    <p class="time-line-item-content">
+                        <span *ngFor="let r of x.responsibilities">{{r}}<br/></span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section class="clients-section">
+    <h6 class="section-subtitle">WHAT I DO</h6>
+    <h2 class="section-title">CLIENTS</h2>
+    <div class="client-logos-wrapper">
+        <div class="client-logo" *ngFor="let x of profile.clients"><img src="{{x.imagelink}}" alt="{{x.name}}" class="w-100"></div>
+       
+    </div>
+</section>
+<section class="services-section">
+    <h6 class="section-subtitle">WHAT I DO</h6>
+    <h2 class="section-title">SKILLS</h2>
+    <div class="row">
+        <div *ngFor="let x of profile.skills;let indexOfelement=index;" class="media service-card col-lg-6">
+            <div class="service-icon">
+                <img src="assets/images/{{indexOfelement+1}}.svg" alt="target">
+            </div>
+            <div class="media-body">
+                <h5 class="service-title">{{x.name}}</h5>
+                <p class="service-description">{{x.description}}</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="achievements-section">
+    <h6 class="section-subtitle">WHAT I DO</h6>
+    <h2 class="section-title">ACHIEVEMENTS</h2>
+    <div class="achievement-cards-wrapper">
+        <div class="media achievement-card">
+            <img src="assets/images/puzzle.svg" alt="puzzle" class="achievement-card-icon">
+            <div class="media-body">
+                <h4 class="achievement-card-title">{{this.profile.achievements.projects}}</h4>
+                <p class="achievement-card-description">COMPLETED PROJECTS</p>
+            </div>
+        </div>
+        <div class="media achievement-card">
+            <img src="assets/images/team.svg" alt="puzzle" class="achievement-card-icon">
+            <div class="media-body">
+                <h4 class="achievement-card-title">{{this.profile.achievements.clients}}</h4>
+                <p class="achievement-card-description">HAPPY CLIENTS</p>
+            </div>
+        </div>
+        <div class="media achievement-card">
+            <img src="assets/images/trophy.svg" alt="puzzle" class="achievement-card-icon">
+            <div class="media-body">
+                <h4 class="achievement-card-title">{{this.profile.achievements.awards}}</h4>
+                <p class="achievement-card-description">AWARDS RECIEVED</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="testimonial-section">
+    <div id="testimonialCarousel" class="testimonial-carousel carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item" *ngFor="let x of profile.quotes;let indexOfelement=index;" [class.active]="indexOfelement==0">
+                <p class="testimonial-content">{{x.quote}}</p>
+                <img src="{{x.imagelink}}" alt="profile" class="testimonial-img">
+                <p class="testimonial-name">{{x.author}}</p>
+            </div>
+            
+        </div>
+        <ol class="carousel-indicators">
+            <li data-target="#testimonialCarousel" *ngFor="let x of profile.quotes;let indexOfelement=index;" [class.active]="indexOfelement==0"  [attr.data-slide-to]="indexOfelement"></li>
+        </ol>
+    </div>
+</section>

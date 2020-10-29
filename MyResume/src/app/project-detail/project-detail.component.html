@@ -1,0 +1,53 @@
+<div id="top"></div>
+<section class="resume-section">
+    <div class="row">
+        <div class="col-lg-12">
+            <h6 class="section-subtitle">PROJECT</h6>
+            <h2 class="section-title">{{this.project.name}} </h2>
+            <p>
+                <span *ngFor="let x of project.description">{{x}}<br/></span>
+            </p>
+            <ul class="time-line">
+                <li class="time-line-item">
+                    <span class="badge badge-primary">{{this.project.period}}</span>
+                    <h6 class="time-line-item-title">{{this.project.position}}</h6>
+                    <p class="time-line-item-subtitle">{{this.project.technology}}
+                    </p>
+                    <p class="time-line-item-content">
+                        <strong>Responsibility:</strong> <br>
+                        <span *ngFor="let x of project.responsibility">{{x}}<br/></span>
+                    </p>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+</section>
+<section class="achievements-section">
+    <h6 class="section-subtitle">WHAT I DO</h6>
+    <h2 class="section-title">ACHIEVEMENTS</h2>
+    <div class="achievement-cards-wrapper">
+        <div class="media achievement-card">
+            <img src="assets/images/puzzle.svg" alt="puzzle" class="achievement-card-icon">
+            <div class="media-body">
+                <h4 class="achievement-card-title">{{this.project.members}}</h4>
+                <p class="achievement-card-description">TEAM MEMBERS</p>
+            </div>
+        </div>
+        <div class="media achievement-card">
+            <img src="assets/images/team.svg" alt="puzzle" class="achievement-card-icon">
+            <div class="media-body">
+                <h4 class="achievement-card-title">100</h4>
+                <p class="achievement-card-description">HAPPY CLIENTS</p>
+            </div>
+        </div>
+        <div class="media achievement-card">
+            <img src="assets/images/trophy.svg" alt="puzzle" class="achievement-card-icon">
+            <div class="media-body">
+                <h4 class="achievement-card-title">10</h4>
+                <p class="achievement-card-description">AWARDS RECIEVED</p>
+            </div>
+        </div>
+    </div>
+</section>

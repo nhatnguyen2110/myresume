@@ -1,0 +1,73 @@
+<header>
+  <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto" (click)="ToggleSharing()"><img src="assets/images/share.svg" alt="share"
+      class="btn-img">
+    SHARE</button>
+    <share-buttons [theme]="'material-dark'" class="sharing-social-box" [ngClass]="{'hide':!isShowSharing}"
+    [include]="['facebook','twitter','linkedin','messenger']"
+    [show]="2"
+    [url]="profile.peronalinformation.website"
+    [image] ="'assets/images/cv.jpg'"
+    [autoSetMeta]="false"
+   ></share-buttons>
+
+  <nav class="collapsible-nav" id="collapsible-nav" [ngClass]="{'show':isShowNav}">
+    <a [routerLink]="['/home']" [routerLinkActive]="'active'" class="nav-link">HOME</a>
+    <a [routerLink]="['/resume']" [routerLinkActive]="'active'" class="nav-link">RESUME</a>
+    <a [routerLink]="['/projects']" [routerLinkActive]="'active'" class="nav-link">PROJECTS</a>
+    <a [routerLink]="['/blogs']" [routerLinkActive]="'active'" class="nav-link">BLOG</a>
+    <a [routerLink]="['/contact']" [routerLinkActive]="'active'" class="nav-link">CONTACT</a>
+    <a [routerLink]="['/covid19']" [routerLinkActive]="'active'" class="nav-link">COVID 19</a>
+  </nav>
+  <button (click)="ToggleNav()" class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
+    data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
+</header>
+<div class="content-wrapper">
+  <aside>
+    <div class="profile-img-wrapper">
+      <img src="{{this.profile.peronalinformation.imagelink}}" alt="profile">
+    </div>
+    <h1 class="profile-name">{{this.profile.peronalinformation.fullname}}</h1>
+    <div class="text-center">
+      <span class="badge badge-white badge-pill profile-designation">{{this.profile.peronalinformation.title}}</span>
+    </div>
+    <nav class="social-links">
+      <a target="_blank" href="{{this.profile.socialnetworks.facebooklink}}" class="social-link"><i class="fab fa-facebook-f"></i></a>
+      <a target="_blank" href="{{this.profile.socialnetworks.googlelink}}" class="social-link"><i class="fab fa-google"></i></a>
+      <a target="_blank" href="{{this.profile.socialnetworks.skypelink}}" class="social-link"><i class="fab fa-skype"></i></a>
+      <a target="_blank" href="{{this.profile.socialnetworks.youtubelink}}" class="social-link"><i class="fab fa-youtube"></i></a>
+      <a target="_blank" href="{{this.profile.socialnetworks.githublink}}" class="social-link"><i class="fab fa-github"></i></a>
+    </nav>
+    <div class="widget">
+      <h5 class="widget-title">personal information</h5>
+      <div class="widget-content">
+        <p>BIRTHDAY : {{this.profile.peronalinformation.birthday}}</p>
+        <p>WEBSITE : {{this.profile.peronalinformation.website}}</p>
+        <p>PHONE : {{this.profile.peronalinformation.phone}}</p>
+        <p>MAIL : {{this.profile.peronalinformation.email}}</p>
+        <p>Location : {{this.profile.peronalinformation.location}}</p>
+        <a target="_blank" class="btn btn-download-cv btn-primary rounded-pill" href="{{this.profile.downloadcvlink}}"> <img src="assets/images/download.svg"
+            alt="download" class="btn-img">DOWNLOAD CV </a>
+      </div>
+    </div>
+    <div class="widget card">
+      <div class="card-body">
+        <div class="widget-content">
+          <h5 class="widget-title card-title">LANGUAGES</h5>
+          <p *ngFor="let x of profile.languages">{{x.name}} : {{x.level}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="widget card">
+      <div class="card-body">
+        <div class="widget-content">
+          <h5 class="widget-title card-title">INTERESTS</h5>
+          <p *ngFor="let x of profile.interests">{{x.name}}</p>
+        </div>
+      </div>
+    </div>
+  </aside>
+  <main>
+    <router-outlet></router-outlet>
+    <footer>All Rights Reserved {{this.currentYear}}</footer>
+  </main>
+</div>

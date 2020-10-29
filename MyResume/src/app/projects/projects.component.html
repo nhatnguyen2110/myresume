@@ -1,0 +1,20 @@
+<section class="portfolio-section">
+    <h2 class="section-title">PROJECTS</h2>
+
+    <div class="portfolio-wrapper">
+        <figure *ngFor="let x of projects.projects" class="portfolio-item hover-box" (mouseenter)="mouseEnterProject($event)"
+            (mouseleave)="mouseLeaveProject($event)" (click)="ViewProjectDetail(x.id)" style="cursor:pointer">
+            
+                <img src="{{x.imagelink}}" alt="project" class="portfolio-item-img">
+                <figcaption class="portfolio-item-details overlay">
+                    <h5 class="portfolio-item-title">{{x.name}}</h5>
+                    <p class="portfolio-item-description">
+                        <span *ngFor="let r of x.description">{{r}}<br/></span>
+                    </p>
+                </figcaption>
+            
+        </figure>
+        
+    </div>
+
+</section>

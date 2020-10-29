@@ -1,0 +1,158 @@
+﻿{
+    "description": "I'm .Net Developer from Ho Chi Minh, Viet Nam, working in web development. I enjoy turning complex problems into simple, beautiful and intuitive designs. My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way.",
+    "peronalinformation": {
+        "imagelink": "assets/images/nhatnguyen_avatar.png",
+        "fullname": "Nguyễn Minh Nhật",
+        "title": "Senior .Net Developer",
+        "birthday": "21 October 1989",
+        "website": "https://nhatnguyen2110.github.io/",
+        "phone": "+84 908 311 627",
+        "email": "minhnhat2110@gmail.com",
+        "location": "Ho Chi Minh, VN"
+    },
+    "downloadcvlink": "http://www.mediafire.com/file/thnygb23cu25sz5/Nguy%25E1%25BB%2585n_Minh_Nh%25E1%25BA%25ADt_CV.docx/file",
+    "languages": [
+        {
+            "name": "Vietnamese",
+            "level": "native"
+        },
+        {
+            "name": "English",
+            "level": "TOEIC 725"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Running"
+        },
+        {
+            "name": "Ping Pong"
+        },
+        {
+            "name": "Guitar"
+        },
+        {
+            "name": "Traveling"
+        }
+    ],
+    "socialnetworks": {
+        "facebooklink": "https://www.facebook.com/nhat.nguyenminh.712714",
+        "googlelink": "",
+        "skypelink": "nhatnguyen2110",
+        "youtubelink": "https://www.youtube.com/channel/UCO4sbyfkbuXHaUro_jWAIrQ",
+        "githublink": "https://github.com/nhatnguyen2110"
+    },
+    "education": [
+        {
+            "period": "2007 - 2011",
+            "school": "University of Economics Ho Chi Minh City",
+            "major": "Management Information Systems",
+            "description": ""
+        },
+        {
+            "period": "2012",
+            "school": "TMA Training Center",
+            "major": "ASP.NET Web Programming Certificate",
+            "description": ""
+        }
+    ],
+    "skills": [
+        {
+            "name": "Programming language",
+            "description": "C#, ASP.NET MVC, ASP Classic, ASP.Net Core MVC, Entity framework with the UnitTest: NUnit + Moq"
+        },
+        {
+            "name": "Development",
+            "description": "Experience in using Devexpress, HTML, CSS (Bootstrap, Jquery),LINQ"
+        },
+        {
+            "name": "Open-source",
+            "description": "NopCommerce, Umbraco CMS"
+        },
+        {
+            "name": "Mobile & Desktop",
+            "description": "AngularJS, Angular +2, Jquery"
+        }
+    ],
+    "workexperience": [
+        {
+            "period": "2011 - 2012",
+            "company": "The Gioi Di Dong ltd.",
+            "position": "Business Analyst",
+            "responsibilities": [
+                "Participate in the analysis of ERP System ",
+                "Prepare user requirement, workflow, data requirement, and functional specification document to be handed over to the technical teams",
+                "Provide assistance during the test and implementation phase",
+                "Design data modeling and application mock-up/wireframe",
+                "Provide support for analysis of production issue to fix the functional defect"
+            ]
+        },
+        {
+            "period": "2012 - 2019",
+            "company": "DiCentral ltd.",
+            "position": "Senior .Net Developer, Team Leader",
+            "responsibilities": [
+                "Participate in product development",
+                "Planning to do the assigned work in sprint",
+                "Develop features from request from BA or manager",
+                "Perform unit test, coverage code",
+                "Support and handle problems during development & Deployment",
+                "Research new technological solutions to resolve work"
+            ]
+        }
+    ],
+    "clients": [
+        {
+            "name": "Anna Drapery Corp.",
+            "imagelink": "http://annasdrapery.com/Themes/NopShop/Content/css/images/red_logo.png",
+            "sitelink": "http://annasdrapery.com"
+        },
+        {
+            "name": "Elegant Blinds Inc.",
+            "imagelink": "http://elegantblindsinc.com/Themes/GrandNodeTheme/Content/images/logo.png",
+            "sitelink": "http://elegantblindsinc.com/"
+        },
+        {
+            "name": "Smartturn",
+            "imagelink": "https://ww1.prweb.com/prfiles/2009/09/29/2965424/0_smartturnlogo3color.jpg",
+            "sitelink": "https://www.smartturn.com/"
+        },
+        {
+            "name": "DiCentral",
+            "imagelink": "https://www.dicentral.com/css/assets/imgs/dicentral-logo.png",
+            "sitelink": "https://www.dicentral.com/"
+        }
+    ],
+    "achievements": {
+        "projects": "10+",
+        "clients": "1000",
+        "awards": "7"
+    },
+    "quotes": [
+        {
+            "quote": "If you're good at something, never do it for free.",
+            "author": "Joker",
+            "imagelink": "assets/images/joker.png"
+        },
+        {
+            "quote": "I believe, whatever doesn't kill you, simply makes you...stranger.",
+            "author": "Joker",
+            "imagelink": "assets/images/joker.png"
+        },
+        {
+            "quote": "They laugh at me because i’m different. I laugh at them because they’re all the same.",
+            "author": "Joker",
+            "imagelink": "assets/images/joker.png"
+        },
+        {
+            "quote": "You can’t rely on anyone these days, you gotta do everything yourself.",
+            "author": "Joker",
+            "imagelink": "assets/images/joker.png"
+        },
+        {
+            "quote": "BỐ MÀY ÉO NÓI CÂU ĐÓ.",
+            "author": "Joker",
+            "imagelink": "assets/images/joker.png"
+        }
+    ]
+}
