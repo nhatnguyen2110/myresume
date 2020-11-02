@@ -3,7 +3,7 @@
 		{
 			"id": 1,
 			"name": "DiCatalog",
-			"imagelink": "https://image.slidesharecdn.com/ab729f2d-9e1f-4b47-b2b8-ee1802b57a9c-160824062746/95/dicentralb1-integrationeng201605-simp-15-638.jpg",
+			"imagelink": "assets/images/dicatalog.jpg",
 			"website": "",
 			"period": "2012 - 2013",
 			"description": 
@@ -25,7 +25,7 @@
 		{
 			"id": 2,
 			"name": "Online Payment",
-			"imagelink": "https://cdn.vietnambiz.vn/thumb_w/600/2019/10/5/pg-back-image-1280x720-15702689136491579765091-crop-15702689853161367426964.jpg",
+			"imagelink": "assets/images/online_payment.jpg",
 			"website": "",
 			"period": "2014 - 2015",
 			"description": 
@@ -49,7 +49,7 @@
 		{
 			"id": 3,
 			"name": "DiCompliance",
-			"imagelink": "https://www.xpressmoney.com/blog/wp-content/uploads/2019/05/importance_of_compliance_article_post_thumb-1.jpg",
+			"imagelink": "assets/images/dicompliance.jpg",
 			"website": "",
 			"period": "2015 - 2017",
 			"description": 
@@ -74,7 +74,7 @@
 		{
 			"id": 4,
 			"name": "DiMetrics",
-			"imagelink": "https://noii.vn/uploads/tintuc/n0ngj_DiMetrics.png",
+			"imagelink": "assets/images/dimetrics.png",
 			"website": "",
 			"period": "2017 - 2019",
 			"description": 
@@ -97,7 +97,7 @@
 		{
 			"id": 5,
 			"name": "DiCentral website ",
-			"imagelink": "https://www.dicentral.com/css/assets/imgs/dicentral-logo.png",
+			"imagelink": "assets/images/dicentral.png",
 			"website": "",
 			"period": "2018",
 			"description": 
@@ -119,7 +119,7 @@
 		{
 			"id": 6,
 			"name": "SmartTurn Portal website",
-			"imagelink": "https://ww1.prweb.com/prfiles/2009/09/29/2965424/0_smartturnlogo3color.jpg",
+			"imagelink": "assets/images/smartturn.jpg",
 			"website": "",
 			"period": "2019",
 			"description": 
@@ -140,7 +140,7 @@
 		{
 			"id": 7,
 			"name": "Elegant Blinds Inc. website",
-			"imagelink": "http://elegantblindsinc.com/Themes/GrandNodeTheme/Content/images/logo.png",
+			"imagelink": "assets/images/elegantblindsinc.png",
 			"website": "",
 			"period": "2017-2018",
 			"description": 
@@ -160,7 +160,7 @@
 		{
 			"id": 8,
 			"name": "Anna Drapery website",
-			"imagelink": "http://annasdrapery.com/Themes/NopShop/Content/css/images/red_logo.png",
+			"imagelink": "assets/images/annadrapery.png",
 			"website": "",
 			"period": "2017-2018",
 			"description": 

@@ -25,4 +25,9 @@
     background-color: #4caf50;
     color: white;
   }
+  canvas {
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+	}
   

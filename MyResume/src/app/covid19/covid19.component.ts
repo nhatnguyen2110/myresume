@@ -20,6 +20,7 @@ export class Covid19Component implements OnInit {
   public chartIsReady = false;
   private chartOptions = {
     responsive: true,
+    maintainAspectRatio:false
   };
 
   public interestedData = [];

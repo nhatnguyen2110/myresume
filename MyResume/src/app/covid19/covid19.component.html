@@ -3,7 +3,7 @@
         <div class="col-lg-12">
             <h6 class="section-subtitle">CHART</h6>
             <h2 class="section-title">GLOBAL AND VIET NAM</h2>
-            <div style="display: block;" *ngIf="chartIsReady">
+            <div style="width: 100%;height: 60vh" *ngIf="chartIsReady">
                 <canvas baseChart [datasets]="barChartData" [labels]="barChartLabels" [options]="barChartOptions"
                     [plugins]="barChartPlugins" [legend]="barChartLegend" [chartType]="barChartType"
                     [colors]="chartColors">
@@ -15,7 +15,7 @@
     <div class="row">
         <div class="col-lg-12">
             <h6 class="section-subtitle">COVID 19 - STATUS</h6>
-            <div>
+            <div class="table-responsive">
                 <table id="data" style="border-collapse: collapse;">
                     <tr>
                       <th>Country</th>

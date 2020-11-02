@@ -33,12 +33,15 @@
         },
         {
             "name": "Traveling"
+        },
+        {
+            "name": "Fishing"
         }
     ],
     "socialnetworks": {
         "facebooklink": "https://www.facebook.com/nhat.nguyenminh.712714",
-        "googlelink": "",
-        "skypelink": "nhatnguyen2110",
+        "googlelink": "mailto:minhnhat2110@gmail.com",
+        "skypelink": "skype:nhatnguyen2110?chat",
         "youtubelink": "https://www.youtube.com/channel/UCO4sbyfkbuXHaUro_jWAIrQ",
         "githublink": "https://github.com/nhatnguyen2110"
     },
