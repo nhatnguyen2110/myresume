@@ -9,4 +9,5 @@ export class CommonServiceService {
   public profileData;
   public projectsData;
   public blogsData;
+  
 }

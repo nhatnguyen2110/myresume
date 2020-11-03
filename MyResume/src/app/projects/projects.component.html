@@ -1,7 +1,7 @@
 <section class="portfolio-section">
     <h2 class="section-title">PROJECTS</h2>
 
-    <div class="portfolio-wrapper">
+    <div class="portfolio-wrapper" *ngIf="projects">
         <figure *ngFor="let x of projects.projects" class="portfolio-item hover-box" (mouseenter)="mouseEnterProject($event)"
             (mouseleave)="mouseLeaveProject($event)" (click)="ViewProjectDetail(x.id)" style="cursor:pointer">
             

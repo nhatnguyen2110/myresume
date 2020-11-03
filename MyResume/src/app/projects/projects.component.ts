@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CommonServiceService } from '../Services/common-service.service';
-import  *  as  myProjects  from '../data/myProjects.json';
+import { ServerHttpService } from '../Services/server-http.service';
 
 @Component({
   selector: 'app-projects',
@@ -9,35 +9,33 @@ import  *  as  myProjects  from '../data/myProjects.json';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent implements OnInit {
-  public projects : any;
+  public projects: any;
   constructor(
     private router: Router,
-    private common: CommonServiceService
+    private common: CommonServiceService,
+    private serverHttp: ServerHttpService
   ) { }
 
-  ngOnInit(): void {
-    if(!this.common.projectsData)
-    {
-      this.common.projectsData = (myProjects as any).default;
+  async ngOnInit(): Promise<any> {
+    if (!this.common.projectsData) {
+      let data = await this.serverHttp.loadProjects();
+      this.common.projectsData = data;
     }
     this.projects = this.common.projectsData;
-    
   }
-  public mouseEnterProject(e)
-  {
+
+  public mouseEnterProject(e) {
     e.srcElement.classList.add('in-down');
     e.srcElement.classList.remove('out-down');
-    
+
   }
-  public mouseLeaveProject(e)
-  {
+  public mouseLeaveProject(e) {
     e.srcElement.classList.remove('in-down');
     e.srcElement.classList.add('out-down');
-    
+
   }
-  public ViewProjectDetail(id)
-  {
-    this.router.navigate(['project',id]);
-    
+  public ViewProjectDetail(id) {
+    this.router.navigate(['project', id]);
+
   }
 }

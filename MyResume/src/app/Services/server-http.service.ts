@@ -42,4 +42,14 @@ export class ServerHttpService {
     .get<any>(url,this.httpOptions)
     .pipe(catchError(this.handleError))
   }
+  async loadProfile()
+  {
+    const url = 'assets/data/myProfile.json';
+    return await this.httpClient.get(url).toPromise();
+  }
+  async loadProjects()
+  {
+    const url = 'assets/data/myProjects.json';
+    return await this.httpClient.get(url).toPromise();
+  }
 }

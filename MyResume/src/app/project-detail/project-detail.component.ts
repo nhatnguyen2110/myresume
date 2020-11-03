@@ -1,31 +1,32 @@
 import { Component, OnInit } from '@angular/core';
-import  *  as  myProjects  from '../data/myProjects.json';
 import { CommonServiceService } from '../Services/common-service.service';
 import * as _ from 'lodash';
 import { ActivatedRoute, Router } from '@angular/router';
+import { ServerHttpService } from '../Services/server-http.service';
 @Component({
   selector: 'app-project-detail',
   templateUrl: './project-detail.component.html',
   styleUrls: ['./project-detail.component.scss']
 })
 export class ProjectDetailComponent implements OnInit {
-  public project : any;
+  public project: any;
   public id = 0;
   constructor(
     private common: CommonServiceService,
     private route: ActivatedRoute,
     private router: Router,
+    private serverHttp: ServerHttpService
   ) { }
 
-  ngOnInit(): void {
-    if(!this.common.projectsData)
-    {
-      this.common.projectsData = (myProjects as any).default;
+  async ngOnInit(): Promise<any> {
+    if (!this.common.projectsData) {
+      let data = await this.serverHttp.loadProjects();
+      this.common.projectsData = data;
     }
     this.id = +this.route.snapshot.paramMap.get('id');
-    this.project = _.find(this.common.projectsData.projects,{'id':this.id});
-    if(!this.project){
-        this.router.navigate(['PageNotFound']);
+    this.project = _.find(this.common.projectsData.projects, { 'id': this.id });
+    if (!this.project) {
+      this.router.navigate(['PageNotFound']);
     }
   }
   ngAfterViewInit() {

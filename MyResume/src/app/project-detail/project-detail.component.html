@@ -1,5 +1,5 @@
 <div id="top"></div>
-<section class="resume-section">
+<section class="resume-section" *ngIf="project">
     <div class="row">
         <div class="col-lg-12">
             <h6 class="section-subtitle">PROJECT</h6>
@@ -24,7 +24,7 @@
 
     </div>
 </section>
-<section class="achievements-section">
+<section class="achievements-section" *ngIf="project">
     <h6 class="section-subtitle">WHAT I DO</h6>
     <h2 class="section-title">ACHIEVEMENTS</h2>
     <div class="achievement-cards-wrapper">
